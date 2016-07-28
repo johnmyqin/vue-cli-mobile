@@ -1,4 +1,4 @@
-# wowdsgn-wechat-share
+# 自己备用的vue.js备用脚手架
 
 > A Vue.js project
 
