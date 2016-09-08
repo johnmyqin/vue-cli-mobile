@@ -1,18 +1,21 @@
+/**
+ * 路由入口配置
+ */
 export default function(router) {
     router.map({
         '*': {
             component(resolve) {
-                require(['./views/Home'], resolve)
+                require(['./views/home'], resolve)
             }
         },
         '/index': {
             component(resolve) {
-                require(['./views/Home'], resolve)
+                require(['./views/home'], resolve)
             }
         },
-        '/product/:productid': {
+        '/shop/:shopid': {
             component(resolve) {
-                require(['./views/product/product'], resolve)
+                require(['./views/shop/shop'], resolve)
             }
         },
     })

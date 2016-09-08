@@ -1,0 +1,17 @@
+/*vue路由进出动画*/
+[v-cloak] {
+	visibility: hidden;
+}
+.fade-transition {
+	-webkit-transition: opacity .3s ease;
+	transition: opacity .3s ease;
+}
+.fade-enter, .fade-leave {
+    opacity: 0;
+}
+
+/*主体*/
+#app {
+    width: 7.5rem;
+    margin: 0 auto;
+}

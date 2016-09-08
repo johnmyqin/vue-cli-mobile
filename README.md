@@ -1,4 +1,4 @@
-# 自己备用的vue.js备用脚手架
+# 自己备用的vue.js移动端备用脚手架，css基于frozenui
 
 > A Vue.js project
 

@@ -1,6 +1,6 @@
 <template>
     <div class="product">
-        商品详情页
+        shop详情页
         <p style="height:1000px; background:#ccc;">
 
         </p>
